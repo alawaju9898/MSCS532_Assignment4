@@ -1,0 +1,29 @@
+# README
+
+## Overview
+This project implements two key data structures: Heapsort and a priority queue using a max-heap. Heapsort is used for sorting an array of integers, while the priority queue manages tasks with priorities, allowing insertion, extraction, and priority adjustments.
+
+## Files Included
+- `heap_sort.py`: Contains the implementation of the Heapsort algorithm.
+- `priority_queue.py`: Contains the implementation of the priority queue with task management.
+
+## Instructions to Run the Code
+1. Ensure Python 3.x is installed on your machine.
+2. Download or clone this repository to your local machine.
+3. Open a terminal or command prompt and navigate to the folder where the files are saved.
+4. To run the Heapsort implementation, use the following command:
+
+   python heap_sort.py
+
+   This will output the sorted array.
+
+5. To run the priority queue implementation, use the following command:
+  
+   python priority_queue.py
+
+   This will output the task with the highest priority and show the result after the priority increase operation.
+
+## Summary of Findings
+- **Heapsort**: The algorithm correctly sorts the array `[1, 3, 4, 5, 10]` using a max-heap. The time complexity is O(n log n) in all cases (best, average, and worst).
+  
+- **Priority Queue**: The priority queue correctly manages tasks based on priority. The task with the highest priority (2) is extracted, and after increasing the priority of a task, its new priority becomes 7, reflecting the correct priority update mechanism.
